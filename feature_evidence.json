@@ -1,0 +1,59 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-display-the-business-phone-number-985-415-7267-prominently-in-the-contactsection-component-show-it-as-a-clickable-tel-link-alongside-the-quote-form-within-the-covington-louisiana-branding-area-of-that-section",
+      "featureTitle": "Display the business phone number (985) 415-7267 prominently in the ContactSection component — show it as a clickable tel: link alongside the quote form, within the 'Covington, Louisiana' branding area of that section.",
+      "files": [
+        "frontend/src/components/ContactSection.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-11"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-display-the-business-phone-number-985-415-7267-as-a-clickable-tel-link-in-the-footer-component-near-the-business-name-and-location-text",
+      "featureTitle": "Display the business phone number (985) 415-7267 as a clickable tel: link in the Footer component, near the business name and location text.",
+      "files": [
+        "frontend/src/components/Footer.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-12"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-display-the-business-phone-number-985-415-7267-as-a-clickable-tel-link-in-the-navbar-component-visible-on-desktop-alongside-the-existing-free-quote-button",
+      "featureTitle": "Display the business phone number (985) 415-7267 as a clickable tel: link in the Navbar component, visible on desktop alongside the existing 'Free Quote' button.",
+      "files": [
+        "frontend/src/components/Navbar.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-13"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.375rem;
+
+    /* R&R Brand Colors in OKLCH */
+    --brand-navy: 0.22 0.04 240;
+    --brand-blue: 0.45 0.18 250;
+    --brand-green: 0.58 0.2 145;
+    --brand-white: 0.98 0 0;
+    --brand-light: 0.88 0.01 240;
+    --brand-dark: 0.14 0.03 240;
+
+    /* Semantic tokens */
+    --background: 0.22 0.04 240;
+    --foreground: 0.98 0 0;
+    --card: 0.18 0.04 240;
+    --card-foreground: 0.98 0 0;
+    --popover: 0.18 0.04 240;
+    --popover-foreground: 0.98 0 0;
+    --primary: 0.58 0.2 145;
+    --primary-foreground: 0.98 0 0;
+    --secondary: 0.45 0.18 250;
+    --secondary-foreground: 0.98 0 0;
+    --muted: 0.28 0.04 240;
+    --muted-foreground: 0.72 0.02 240;
+    --accent: 0.45 0.18 250;
+    --accent-foreground: 0.98 0 0;
+    --destructive: 0.577 0.245 27.325;
+    --destructive-foreground: 0.985 0 0;
+    --border: 0.32 0.04 240;
+    --input: 0.28 0.04 240;
+    --ring: 0.58 0.2 145;
+    --chart-1: 0.58 0.2 145;
+    --chart-2: 0.45 0.18 250;
+    --chart-3: 0.72 0.15 145;
+    --chart-4: 0.55 0.15 250;
+    --chart-5: 0.65 0.18 145;
+    --sidebar: 0.18 0.04 240;
+    --sidebar-foreground: 0.98 0 0;
+    --sidebar-primary: 0.58 0.2 145;
+    --sidebar-primary-foreground: 0.98 0 0;
+    --sidebar-accent: 0.28 0.04 240;
+    --sidebar-accent-foreground: 0.98 0 0;
+    --sidebar-border: 0.32 0.04 240;
+    --sidebar-ring: 0.58 0.2 145;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.02em;
+  }
+}
+
+@layer utilities {
+  .font-heading {
+    font-family: 'Oswald', sans-serif;
+  }
+  .text-shadow-lg {
+    text-shadow: 0 2px 8px rgba(0,0,0,0.7), 0 1px 3px rgba(0,0,0,0.9);
+  }
+  .section-divider {
+    border-top: 3px solid oklch(0.58 0.2 145);
+  }
+}

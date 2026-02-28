@@ -1,0 +1,14 @@
+{
+  "frontend/src/index.css": "Global styles with R&R brand OKLCH color tokens (navy, blue, green), Oswald heading font import, and utility classes for text shadows and section dividers.",
+  "frontend/tailwind.config.js": "Extended Tailwind config with R&R brand color tokens, Oswald/Open Sans font families, custom box shadows (glow, card), and all existing shadcn/ui tokens preserved.",
+  "frontend/src/hooks/useQueries.ts": "React Query mutation hook for submitting quote requests to the backend canister via the submitQuoteRequest actor method.",
+  "frontend/src/components/Navbar.tsx": "Sticky top navigation bar with R&R logo, desktop and mobile-responsive anchor links, a clickable phone number (985) 415-7267 (tel:9854157267) with a Phone icon in both desktop nav and mobile hamburger menu, and a \"Free Quote\" CTA button.",
+  "frontend/src/components/Hero.tsx": "Full-screen hero section with hero background image, dark overlay, R&R logo, business name, tagline, Covington Louisiana location, fleur-de-lis accent, and CTA buttons.",
+  "frontend/src/components/PressureWashingSection.tsx": "Services section listing all 5 pressure washing services (Driveways, Houses, Sidewalks, Patios, Fences) as styled cards with brand blue accents.",
+  "frontend/src/components/GutterCleaningSection.tsx": "Services section for Gutter Cleaning with Debris Removal and Downspout Flushing cards plus a \"Why It Matters\" info panel with brand green accents.",
+  "frontend/src/components/LawnLandscapingSection.tsx": "Services section listing all 5 lawn and landscaping services as styled cards with brand green accents and a CTA card.",
+  "frontend/src/components/ServicesOverview.tsx": "Three-column overview section linking to each service category with icons, descriptions, and hover animations.",
+  "frontend/src/components/ContactSection.tsx": "Quote request form section with a contact info panel that now includes a clickable phone number (985) 415-7267 (tel:9854157267) alongside location and services info, plus the Name/Phone/Email/Service/Message form with loading/success/error states.",
+  "frontend/src/components/Footer.tsx": "Footer with R&R logo, fleur-de-lis, business name, Covington Louisiana tagline, a clickable phone number (985) 415-7267 (tel:9854157267) with a Phone icon, nav links, copyright year, and caffeine.ai attribution.",
+  "frontend/src/App.tsx": "Main app component composing all page sections in order: Navbar, Hero, ServicesOverview, PressureWashing, GutterCleaning, LawnLandscaping, Contact, Footer."
+}

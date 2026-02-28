@@ -1,0 +1,76 @@
+{
+  "kind": "build_request",
+  "title": "Add contact phone number to site",
+  "projectName": "R&R Pressure Washing",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-11",
+      "text": "Display the business phone number (985) 415-7267 prominently in the ContactSection component — show it as a clickable tel: link alongside the quote form, within the 'Covington, Louisiana' branding area of that section.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "add my contact information  phone number 9854157267"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Phone number (985) 415-7267 is visible in the Contact section",
+        "Phone number renders as a clickable tel:9854157267 link",
+        "Phone number is styled consistently with the site's dark navy/blue/green brand theme"
+      ]
+    },
+    {
+      "id": "REQ-12",
+      "text": "Display the business phone number (985) 415-7267 as a clickable tel: link in the Footer component, near the business name and location text.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "add my contact information  phone number 9854157267"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Phone number (985) 415-7267 is visible in the footer",
+        "Phone number renders as a clickable tel:9854157267 link in the footer",
+        "Styling is consistent with the existing footer dark navy theme and white text"
+      ]
+    },
+    {
+      "id": "REQ-13",
+      "text": "Display the business phone number (985) 415-7267 as a clickable tel: link in the Navbar component, visible on desktop alongside the existing 'Free Quote' button.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "add my contact information  phone number 9854157267"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Phone number (985) 415-7267 is visible in the navbar on desktop",
+        "Phone number renders as a clickable tel:9854157267 link",
+        "Styling matches the existing dark navy navbar with white text",
+        "On mobile, the phone number is accessible (e.g., inside the hamburger menu)"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify any files under frontend/src/hooks/ or frontend/src/components/ui/",
+    "Phone number must always be formatted as (985) 415-7267 for display and tel:9854157267 for the href"
+  ],
+  "nonGoals": [
+    "Adding any other contact information beyond the phone number",
+    "Creating a new contact page or route",
+    "Changing the backend schema or quote request data model"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

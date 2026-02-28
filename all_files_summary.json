@@ -1,0 +1,23 @@
+{
+  "backend/main.mo": "Motoko actor defining a QuoteRequest type with three service categories and exposing functions to submit, retrieve by ID, and list all quote requests stored in a Map.",
+  "feature_evidence.json": "Feature evidence report mapping three phone-number display features (ContactSection, Footer, Navbar) to their source files and test IDs.",
+  "frontend-file-summaries.txt": "JSON document containing one-line summaries of every frontend source file, describing each component's purpose and key content.",
+  "frontend/index.css": "Base Tailwind CSS entry file defining shadcn/ui OKLCH CSS custom properties for light and dark themes.",
+  "frontend/index.html": "Minimal HTML shell that mounts the React app into a root div and loads the main TypeScript entry point.",
+  "frontend/src/App.tsx": "Root React component that composes all page sections (Navbar, Hero, ServicesOverview, three service sections, Contact, Footer) in order.",
+  "frontend/src/components/ContactSection.tsx": "Quote request form section with a contact info panel showing a clickable phone number (985) 415-7267 and a form for Name/Phone/Email/Service/Message with loading, success, and error states.",
+  "frontend/src/components/Footer.tsx": "Site footer displaying the R&R logo, fleur-de-lis, business name, Covington Louisiana tagline, a clickable phone number, nav links, copyright, and a caffeine.ai attribution.",
+  "frontend/src/components/GutterCleaningSection.tsx": "Service section for Gutter Cleaning listing Debris Removal and Downspout Flushing cards with brand green accents and a 'Why It Matters' info panel.",
+  "frontend/src/components/Hero.tsx": "Full-screen hero section for R&R Pressure Washing & Landscaping with a background image, logo, business name, tagline, and CTA buttons that smooth-scroll to the contact and services sections.",
+  "frontend/src/components/LawnLandscapingSection.tsx": "Displays a grid of lawn and landscaping service cards (grass cutting, edging, mulch, shrub trimming, cleanups) plus a CTA card that scrolls to the contact section.",
+  "frontend/src/components/Navbar.tsx": "Fixed top navigation bar with logo, desktop nav links, phone number, a 'Free Quote' button, and a collapsible mobile menu that smooth-scrolls to page sections.",
+  "frontend/src/components/PressureWashingSection.tsx": "Displays a grid of pressure washing service cards (driveways, houses, sidewalks, patios, fences) with a CTA card that scrolls to the contact section.",
+  "frontend/src/components/ServicesOverview.tsx": "Overview section listing the three main service categories (Pressure Washing, Gutter Cleaning, Lawn & Landscaping) as clickable cards that smooth-scroll to their respective detail sections.",
+  "frontend/src/hooks/useActor.ts": "Custom React hook that creates and caches an Internet Computer actor (authenticated or anonymous) using React Query, and invalidates dependent queries whenever the identity or actor changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Provides a React context and hook for Internet Identity authentication, managing login state, identity persistence, and AuthClient creation with configurable options.",
+  "frontend/src/hooks/useQueries.ts": "Defines a `useSubmitQuoteRequest` mutation hook that submits a quote request form to the backend actor and invalidates related query cache on success.",
+  "frontend/src/index.css": "Global stylesheet importing Google Fonts and defining Tailwind base/component/utility layers with R&R brand OKLCH color tokens and typography settings.",
+  "frontend/src/main.tsx": "Application entry point that renders the React app wrapped in QueryClientProvider and InternetIdentityProvider.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration extending the theme with R&R brand colors (OKLCH), custom fonts, shadows, border radii, and accordion animations, with typography, container-queries, and animate plugins.",
+  "project_state.json": "Tracks the project's current state, version, architectural notes, known issues, and list of implemented features for the R&R Pressure Washing & Landscaping website."
+}
